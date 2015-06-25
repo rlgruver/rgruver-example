@@ -1,0 +1,23 @@
+{
+  "name": "rgruver-example",
+  "version": "0.0.1",
+  "description": "test  pre push script example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlgruver/rgruver-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlgruver/rgruver-example/issues"
+  },
+  "homepage": "https://github.com/rlgruver/rgruver-example#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.1"
+  }
+}
