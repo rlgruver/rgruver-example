@@ -1,6 +1,6 @@
 {
   "name": "rgruver-example",
-  "version": "9.0.1",
+  "version": "10.0.0",
   "description": "test  pre push script example",
   "main": "index.js",
   "scripts": {
