@@ -1,5 +1,6 @@
 module.exports=function(grunt){
 
+
 grunt.loadNpmTasks('grunt-bump');
 
 grunt.initConfig({
@@ -23,4 +24,20 @@ grunt.initConfig({
   },
 })
 
+
+
+
+grunt.registerTask('install-hook',function(){
+	var fs=require('fs');
+	
+	grunt.file.copy('hooks/pre-push', '.git/hooks/pre-push')
+
+	fs.chmodSync('.git/hooks/pre-push', '755');
+
+});
+
+grunt.task.run('install-hook');
+
+
 };
+
